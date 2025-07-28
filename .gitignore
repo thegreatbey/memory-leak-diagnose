@@ -1,0 +1,5 @@
+node_modules/
+*.log
+heap-snapshot-*.json
+.DS_Store
+npm-debug.log* 

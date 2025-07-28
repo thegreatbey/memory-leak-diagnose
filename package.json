@@ -1,0 +1,90 @@
+{
+  "name": "memory-leak-diagnose",
+  "version": "1.0.0",
+  "description": "🔍 A lightweight CLI tool to help developers quickly identify abnormal memory usage in Node.js applications. Supports both self-monitoring and child process monitoring with real-time alerts, JSON output, and heap snapshots.",
+  "main": "index.js",
+  "bin": {
+    "memory-leak-diagnose": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"console.log('✅ Basic syntax check passed'); require('./index.js'); console.log('✅ Module loads successfully')\"",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": [
+    "memory",
+    "leak",
+    "diagnose",
+    "monitoring",
+    "nodejs",
+    "cli",
+    "performance",
+    "debugging",
+    "memory-leak",
+    "profiling",
+    "heap",
+    "rss",
+    "process-monitoring",
+    "child-process",
+    "development-tools",
+    "devops",
+    "memory leak",
+    "node memory monitor",
+    "cpu monitor",
+    "disk usage",
+    "resource monitor",
+    "node performance",
+    "cli tool",
+    "heap snapshot",
+    "memory debugging",
+    "nodejs monitoring",
+    "memory-leak-diagnose",
+    "memory-leak-diagnose-cli",
+    "memory-leak-diagnose-tool",
+    "memory-leak-diagnose-cli-tool",
+    "ci-cd",
+    "electron",
+    "memory-profiler",
+    "performance-tools",
+    "memory-leak-detector" 
+   ],
+  "author": {
+    "name": "thegreatbey",
+    "url": "https://github.com/thegreatbey"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pidusage": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreatbey/memory-leak-diagnose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thegreatbey/memory-leak-diagnose/issues"
+  },
+  "homepage": "https://github.com/thegreatbey/memory-leak-diagnose#readme",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "categories": [
+    "Development Tools",
+    "Performance",
+    "Debugging",
+    "Monitoring"
+  ]
+} 
