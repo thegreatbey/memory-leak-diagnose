@@ -5,7 +5,7 @@
   "preferGlobal": true,
   "main": "index.js",
   "bin": {
-    "memory-leak-diagnose": "./index.js"
+    "memory-leak-diagnose": "index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -63,7 +63,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thegreatbey/memory-leak-diagnose.git"
+    "url": "git+https://github.com/thegreatbey/memory-leak-diagnose.git"
   },
   "bugs": {
     "url": "https://github.com/thegreatbey/memory-leak-diagnose/issues"
