@@ -1,6 +1,6 @@
 {
   "name": "memory-leak-diagnose",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🔍 A lightweight CLI tool to help developers quickly identify abnormal memory usage in Node.js applications. Supports both self-monitoring and child process monitoring with real-time alerts, JSON output, and heap snapshots.",
   "preferGlobal": true,
   "main": "index.js",
