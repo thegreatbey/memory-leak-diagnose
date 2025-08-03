@@ -63,10 +63,6 @@ memory-leak-diagnose --threshold 200 --interval 500 npm run dev
 memory-leak-diagnose --interval 2000 npm run build
 ```
 
-![CLI Demo](cli-screenshot.png)
-
-*Real-time monitoring with memory and disk usage tracking*
-
 ## 📖 Usage Examples
 
 ### Self-Monitoring (Default)
