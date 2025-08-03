@@ -12,6 +12,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/memory-leak-diagnose.svg)](https://www.npmjs.com/package/memory-leak-diagnose)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js CI](https://github.com/thegreatbey/memory-leak-diagnose/actions/workflows/node-ci.yml/badge.svg)](https://github.com/thegreatbey/memory-leak-diagnose/actions)
+[![CD](https://github.com/thegreatbey/memory-leak-diagnose/actions/workflows/publish.yml/badge.svg)](https://github.com/thegreatbey/memory-leak-diagnose/actions)
 [![Code Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://standardjs.com/)
 [![npm install](https://img.shields.io/badge/npm%20install--g%20memory--leak--diagnose-blue.svg)](https://www.npmjs.com/package/memory-leak-diagnose)
 
